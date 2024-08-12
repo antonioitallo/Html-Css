@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: red;
+        }
+        .especial {
+            background-color: rgba(255, 112, 112, 0.93);
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: yellow;
+        }
+        .especial::after {
+            content: '--';
+        }
+        .especial::before {
+            content: '---';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=7XgpYBFMIfQ" target="_blank" rel="external" class="especial">Youtube</a></li>
+        <li><a href="https://www.instagram.com/simonemendes/" target="_blank"  rel="external">Instagram</a></li>
+        <li><a href="https://s2-g1.glbimg.com/MVIpOVDJgHL5JQkPIkh6NbAtkzw=/0x0:620x794/984x0/smart/filters:strip_icc()/s.glbimg.com/jo/g1/f/original/2012/03/06/caters_monkey_snapper_03.jpg" target="_blank" rel="external">Whatsap</a></li>
+    </ul>
+</body>
+</html>
